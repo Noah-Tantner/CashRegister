@@ -99,6 +99,7 @@ namespace CashRegister
 
                 if (tenderedInput.Text != "")
                 {
+                    //the printerSound is used irregularly on purpose to more accurately recreate how a receipt getting printed sounds
                     receiptLabel.Text = "Ihr Kauf:                                              ";
                     printerSound.Play();
                     Thread.Sleep(delayTime);
