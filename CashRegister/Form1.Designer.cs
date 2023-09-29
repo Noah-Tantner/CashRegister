@@ -102,7 +102,7 @@
             // subtotalLabel
             // 
             this.subtotalLabel.BackColor = System.Drawing.Color.Transparent;
-            this.subtotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subtotalLabel.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subtotalLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.subtotalLabel.Location = new System.Drawing.Point(12, 313);
             this.subtotalLabel.Name = "subtotalLabel";
@@ -113,7 +113,7 @@
             // taxlabel
             // 
             this.taxlabel.BackColor = System.Drawing.Color.Transparent;
-            this.taxlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.taxlabel.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taxlabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.taxlabel.Location = new System.Drawing.Point(12, 347);
             this.taxlabel.Name = "taxlabel";
@@ -124,7 +124,7 @@
             // totalLabel
             // 
             this.totalLabel.BackColor = System.Drawing.Color.Transparent;
-            this.totalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalLabel.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.totalLabel.Location = new System.Drawing.Point(12, 379);
             this.totalLabel.Name = "totalLabel";
@@ -135,7 +135,7 @@
             // tenderedLabel
             // 
             this.tenderedLabel.BackColor = System.Drawing.Color.Transparent;
-            this.tenderedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tenderedLabel.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenderedLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.tenderedLabel.Location = new System.Drawing.Point(17, 444);
             this.tenderedLabel.Name = "tenderedLabel";
@@ -159,7 +159,7 @@
             // calculateChangeButton
             // 
             this.calculateChangeButton.BackColor = System.Drawing.Color.Black;
-            this.calculateChangeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateChangeButton.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateChangeButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.calculateChangeButton.Location = new System.Drawing.Point(96, 490);
             this.calculateChangeButton.Name = "calculateChangeButton";
@@ -172,7 +172,7 @@
             // changeLabel
             // 
             this.changeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.changeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeLabel.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.changeLabel.Location = new System.Drawing.Point(12, 546);
             this.changeLabel.Name = "changeLabel";
@@ -204,7 +204,7 @@
             // printReceiptButton
             // 
             this.printReceiptButton.BackColor = System.Drawing.Color.Black;
-            this.printReceiptButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printReceiptButton.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.printReceiptButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.printReceiptButton.Location = new System.Drawing.Point(96, 598);
             this.printReceiptButton.Name = "printReceiptButton";
@@ -252,9 +252,10 @@
             // 
             // tenderedInput
             // 
+            this.tenderedInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenderedInput.Location = new System.Drawing.Point(259, 444);
             this.tenderedInput.Name = "tenderedInput";
-            this.tenderedInput.Size = new System.Drawing.Size(86, 22);
+            this.tenderedInput.Size = new System.Drawing.Size(86, 30);
             this.tenderedInput.TabIndex = 21;
             // 
             // receiptLabel

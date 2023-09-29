@@ -97,7 +97,7 @@ namespace CashRegister
 
                 receiptLabel.BackColor = Color.White;
 
-                if (tenderedInput.Text != "")
+                if (Convert.ToDouble(tenderedInput.Text) > total)
                 {
                     //the printerSound is used irregularly on purpose to more accurately recreate how a receipt getting printed sounds
                     receiptLabel.Text = "Ihr Kauf:                                              ";
@@ -169,7 +169,10 @@ namespace CashRegister
                     Thread.Sleep(delayTime);
                     Refresh();
                 }
-                else receiptLabel.Text = "Du musst bezahlen.";
+                else
+                {
+                    receiptLabel.Text = "Du musst bezahlen.";
+                }
             }
             catch
             {
